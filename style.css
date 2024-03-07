@@ -1,0 +1,85 @@
+/* UNIVERSAL OPERATOR START */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* UNIVERSAL OPERATOR END */
+ 
+/* --------------------------- */
+
+/* TAG OPERATOR START */
+/* HEADER STYLING START */
+#heading{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+/* HEADER STYLING END */
+
+/* --------------------------- */
+
+/* CONTENT START */
+#inputForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#getTodo{
+    width: 700px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+    border-width: 2.5px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+#addTodo{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+    border-width: 2.5px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+#clearAllTodo{
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+    border-width: 2.5px;
+    border-color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* CONTENT END */
+
+/* --------------------------- */
+
+/* TAG OPERATOR END */
+
+/* --------------------------- */
+
+/* FOOTER START */
+#footer{
+    display: flex;
+    justify-content: center;
+}
+#tag{
+    border-top: 0.5px solid #000000;
+    position: fixed;
+    bottom: 0px;
+    border-bottom: 0.5px solid #000000;
+    margin-bottom: 20px;
+}
+/* FOOTER END */
+
+/* --------------------------- */
