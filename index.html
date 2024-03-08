@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO APP</title>
 
+    <!-- CSS LINK  -->
     <link rel="stylesheet" href="./style.css">
+    <!-- CSS LINK -->
 </head>
 <body>
     <div id="mainContainer">
@@ -21,14 +23,10 @@
         <section id="content">
             <form id="inputForm">
                 <input type="text" placeholder="Write your Todo task." required id="getTodo">
-                <button id="addTodo">Add Todo</button>
-                <button id="clearAllTodo">Clear All Todo</button>
+                <button onclick="addTodoList()" id="addTodo">Add Todo</button>
+                <button onclick="clearTodo()" id="clearAllTodo">Clear All Todo</button>
             </form>
-            <table id="todoTable">
-                <tr id="tableTodoRow">
-                    
-                </tr>
-            </table>
+            <Ul id="todoUL"></Ul>
         </section>
         <!-- CONTENT END -->
 
@@ -39,5 +37,9 @@
         <!-- FOOTER END -->
 
     </div>
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="./app.js"></script>
+    <!-- JAVASCRIPT LINK -->
 </body>
 </html>

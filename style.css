@@ -30,33 +30,30 @@
 #getTodo{
     width: 700px;
     height: 40px;
+    border: 2.5px solid black ;
     border-radius: 15px;
     padding-left: 15px;
     margin-right: 20px;
-    border-width: 2.5px;
-    border-color: black;
     cursor: pointer;
     font-size: 16px;
 }
 #addTodo{
-    width: 150px;
+    width: 140px;
     height: 40px;
+    border: 2.5px solid black;
     border-radius: 15px;
-    padding-left: 15px;
+    text-align: center;
     margin-right: 20px;
-    border-width: 2.5px;
-    border-color: black;
     cursor: pointer;
     font-size: 16px;
 }
 #clearAllTodo{
-    width: 180px;
+    width: 170px;
     height: 40px;
+    border: 2.5px solid black;
     border-radius: 15px;
-    padding-left: 15px;
+    text-align: center;
     margin-right: 20px;
-    border-width: 2.5px;
-    border-color: black;
     cursor: pointer;
     font-size: 16px;
 }
@@ -83,3 +80,38 @@
 /* FOOTER END */
 
 /* --------------------------- */
+
+/* JAVASCRIPT STYLING START */
+
+#todoUL{
+    margin-top: 15px;
+}
+#todoLI{
+    height: 40px;
+    margin-top: 15px;
+    font-size: 16px;
+    list-style: none;
+}
+#deleteTodo{
+    width: 140px;
+    height: 40px;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    margin-left: 640px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#editTodo{
+    width: 140px;
+    height: 40px;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* JAVASCRIPT STYLING END */
